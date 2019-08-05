@@ -14,6 +14,15 @@ app.get("/about", (req, res) => {
 app.get("/explosion", (req, res) => {
   res.sendFile("explosion.html", { root: views })
 })
+app.get("/coldHot", (req, res) => {
+  res.sendFile("coldHot.html", { root: views })
+})
+app.get("/zeroGravity", (req, res) => {
+  res.sendFile("zeroGravity.html", { root: views })
+})
+app.get("/oneForAll", (req, res) => {
+  res.sendFile("oneForAll.html", { root: views })
+})
 
 app.listen(3000)
 console.log("Running at port 3000")

@@ -1,5 +1,13 @@
 body {
   background-color: #dfdfdf;
-
   font-family: Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+  text-align: left;
 }
