@@ -1,13 +1,39 @@
 body {
-  background-color: #dfdfdf;
+  background-color: azure;
   font-family: Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  margin: auto;
+  margin-top: 30px;
 }
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
 }
 
 li {
   text-align: left;
+  font-size: 15px;
+}
+
+.gif {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+#navigation {
+  margin-left: auto;
+  margin-right: auto;
+
+  display: inline-block;
+  color: darkblue;
 }
